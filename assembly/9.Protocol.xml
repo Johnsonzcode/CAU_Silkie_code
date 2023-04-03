@@ -1,0 +1,8 @@
+<jellyProtocol>
+    <reference>/storage-01/poultrylab1/zhaoqiangsen/GenomeAssembly/chicken/9.gap/fix_gap/chicken_Final.fasta</reference>
+    <outputDir>/storage-01/poultrylab1/zhaoqiangsen/GenomeAssembly/chicken/9.gap/fix_gap/chicken_withoutgap</outputDir>
+    <blasr>-minMatch 8 -minPctIdentity 70 -bestn 1 -nCandidates 20 -maxScore -500 -nproc 120 -noSplitSubreads</blasr>
+    <input baseDir="/storage-01/poultrylab1/zhaoqiangsen/GenomeAssembly/chicken/9.gap/fix_gap/reads/">
+        <job>chicken_hifi_3cell.fasta</job>
+    </input>
+</jellyProtocol>
