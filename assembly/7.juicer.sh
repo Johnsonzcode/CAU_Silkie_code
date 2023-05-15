@@ -1,0 +1,1 @@
+sh /storage-01/poultrylab1/Software/juicer/scripts/juicer.sh -g Gg -d /storage-01/poultrylab1/Software/juicer -D /storage-01/poultrylab1/Software/juicer/CPU -z reference/scaffold.fa -y reference/scaffold_DpnII.txt -p reference/scaffold.chrom.sizes -s DpnII -t 150
